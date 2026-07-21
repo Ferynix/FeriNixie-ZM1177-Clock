@@ -535,6 +535,183 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "JLCPCB_Imported:1SMA4740A_C19077479"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1SMA4740A_C19077479"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprint:SMA_L4.3-W2.6-LS5.0-RD"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/543768.html"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C19077479"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C19077479"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1SMA4740A_C19077479_0_1"
+				(polyline
+					(pts
+						(xy -2.032 2.032) (xy -1.27 1.524) (xy -1.27 -1.524) (xy -0.508 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.778) (xy -1.27 0) (xy 1.27 -1.778) (xy 1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "JLCPCB_Imported:74HC595D,118"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1512,6 +1689,645 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "NixSymbols:NCH8200HV"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 5.842 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "NCH8200HV"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "NixFootprints:NCH8200HV Through-Hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "NCH8200HV_0_1"
+				(rectangle
+					(start -6.35 5.08)
+					(end 6.35 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "NCH8200HV_1_1"
+				(pin power_in line
+					(at -8.89 2.54 0)
+					(length 2.54)
+					(name "12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name "170V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "NixSymbols:RP2040-Tiny-Waveshare"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 10.668 14.732 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RP2040-Tiny"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "NixFootprints:RP2040-Tiny Package"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RP2040-Tiny-Waveshare_0_1"
+				(rectangle
+					(start -12.7 7.62)
+					(end 13.97 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "RP2040-Tiny-Waveshare_1_1"
+				(pin power_in line
+					(at 12.7 10.16 270)
+					(length 2.54)
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 10.16 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 10.16 270)
+					(length 2.54)
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 10.16 270)
+					(length 2.54)
+					(name "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 10.16 270)
+					(length 2.54)
+					(name "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 10.16 270)
+					(length 2.54)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 10.16 270)
+					(length 2.54)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 5.08 0)
+					(length 2.54)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 2.54 0)
+					(length 2.54)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 0 0)
+					(length 2.54)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 -10.16 90)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -10.16 90)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 -10.16 90)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 -10.16 90)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -10.16 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -10.16 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -10.16 90)
+					(length 2.54)
+					(name "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power global)
 			(pin_numbers
@@ -1768,6 +2584,12 @@
 		)
 	)
 	(junction
+		(at 82.55 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "003ad6a9-ecee-4d4e-9ef4-d2371173adcc")
+	)
+	(junction
 		(at 214.63 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1790,6 +2612,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07314a96-cbe1-4f63-be81-a916e22652b5")
+	)
+	(junction
+		(at 76.2 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b772a7b-7d1c-4e2b-a13a-c2c32068887f")
 	)
 	(junction
 		(at 63.5 78.74)
@@ -1844,6 +2672,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19ad72b7-0732-4f42-a212-f973c7bf63b1")
+	)
+	(junction
+		(at 86.36 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b85dafc-9a77-4c6f-b62d-95d6a0ec2275")
 	)
 	(junction
 		(at 203.2 30.48)
@@ -2476,6 +3310,12 @@
 		(uuid "c7a59eea-28d8-4258-b08c-7e8007421f87")
 	)
 	(junction
+		(at 104.14 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7e223d2-1982-4f1f-bd27-0149fec9e754")
+	)
+	(junction
 		(at 142.24 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2570,6 +3410,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8a72f7c-e88c-4fc4-94e1-f0a019349549")
+	)
+	(junction
+		(at 82.55 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc96f3cb-1109-4104-ae83-b60202f824a6")
 	)
 	(junction
 		(at 165.1 64.77)
@@ -2709,6 +3555,12 @@
 		(color 0 0 0 0)
 		(uuid "fc6813e9-76ae-4c69-a148-770fe5cd3d0d")
 	)
+	(junction
+		(at 104.14 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffa59d07-9135-422e-8d47-7f980d9b9d35")
+	)
 	(no_connect
 		(at 205.74 88.9)
 		(uuid "0a51415f-bb86-442c-bcd0-6d4d0a76c4c8")
@@ -2752,6 +3604,16 @@
 			(type default)
 		)
 		(uuid "02df1b7d-cfec-46d9-91c9-a3e314f49de1")
+	)
+	(wire
+		(pts
+			(xy 199.39 63.5) (xy 199.39 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02f35512-f66d-4143-9f32-a75a9169eee3")
 	)
 	(wire
 		(pts
@@ -2902,6 +3764,16 @@
 			(type default)
 		)
 		(uuid "07927f6b-f33c-4e96-9d7f-6df953e1e729")
+	)
+	(wire
+		(pts
+			(xy 201.93 59.69) (xy 217.17 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07d3af84-4252-49b6-b2a8-1a006e361d66")
 	)
 	(wire
 		(pts
@@ -3585,6 +4457,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 68.58) (xy 190.5 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aad94dc-311f-4d0e-ae73-931c7614f64a")
+	)
+	(wire
+		(pts
 			(xy 132.08 50.8) (xy 132.08 59.69)
 		)
 		(stroke
@@ -4045,6 +4927,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 67.31) (xy 194.31 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4839c65b-733f-47e9-b487-5b1d014dfad8")
+	)
+	(wire
+		(pts
 			(xy 80.01 52.07) (xy 78.74 50.8)
 		)
 		(stroke
@@ -4105,6 +4997,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 68.58) (xy 195.58 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ba7a574-61ea-4ffa-a78f-0603a76300fc")
+	)
+	(wire
+		(pts
 			(xy 35.56 97.79) (xy 55.88 97.79)
 		)
 		(stroke
@@ -4152,6 +5054,16 @@
 			(type default)
 		)
 		(uuid "4d73df7c-8907-4ad0-9090-04c567037300")
+	)
+	(wire
+		(pts
+			(xy 196.85 48.26) (xy 200.66 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d878561-490d-447d-9b39-e748b603901c")
 	)
 	(wire
 		(pts
@@ -4292,6 +5204,16 @@
 			(type default)
 		)
 		(uuid "560297d8-5aa1-4d8c-96a2-419e333fa39a")
+	)
+	(wire
+		(pts
+			(xy 194.31 45.72) (xy 194.31 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "566846cd-8b5c-4430-b6de-46689ce1c8eb")
 	)
 	(wire
 		(pts
@@ -4535,6 +5457,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 123.19) (xy 86.36 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63a68669-fc71-4145-876d-22161cea6edf")
+	)
+	(wire
+		(pts
 			(xy 49.53 57.15) (xy 49.53 58.42)
 		)
 		(stroke
@@ -4775,6 +5707,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 63.5) (xy 201.93 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7116558f-ba51-43ca-a544-a021c37bdac0")
+	)
+	(wire
+		(pts
 			(xy 154.94 93.98) (xy 167.64 93.98)
 		)
 		(stroke
@@ -4792,6 +5734,16 @@
 			(type default)
 		)
 		(uuid "72044e8e-32f5-4b54-b743-e8ec82f68e8a")
+	)
+	(wire
+		(pts
+			(xy 82.55 128.27) (xy 86.36 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "730bf5f3-bacc-4730-a590-cd9a3da6c314")
 	)
 	(wire
 		(pts
@@ -4895,6 +5847,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 68.58) (xy 198.12 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "776a8d47-0545-4545-9a2d-962d8d33be49")
+	)
+	(wire
+		(pts
 			(xy 55.88 97.79) (xy 76.2 97.79)
 		)
 		(stroke
@@ -4955,6 +5917,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 67.31) (xy 201.93 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79cb434e-c8f0-465a-afcf-a7529a89d2ac")
+	)
+	(wire
+		(pts
 			(xy 68.58 88.9) (xy 68.58 73.66)
 		)
 		(stroke
@@ -4972,6 +5944,16 @@
 			(type default)
 		)
 		(uuid "7b162da5-95d0-4193-a503-d9674b176668")
+	)
+	(wire
+		(pts
+			(xy 193.04 68.58) (xy 193.04 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c07b13b-aa25-41c4-90de-0a572c1b2c6f")
 	)
 	(wire
 		(pts
@@ -5365,6 +6347,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 57.15) (xy 212.09 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93d49de9-f31b-49f0-9c25-42e948477ff5")
+	)
+	(wire
+		(pts
 			(xy 147.32 50.8) (xy 147.32 59.69)
 		)
 		(stroke
@@ -5385,6 +6377,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 67.31) (xy 199.39 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94bf554d-141a-49a9-9c56-f8e4cb617285")
+	)
+	(wire
+		(pts
 			(xy 48.26 88.9) (xy 48.26 73.66)
 		)
 		(stroke
@@ -5402,6 +6404,16 @@
 			(type default)
 		)
 		(uuid "9623ca27-6f68-4289-a490-7e4c97b64155")
+	)
+	(wire
+		(pts
+			(xy 196.85 63.5) (xy 196.85 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9672f48c-3be0-46a8-9524-20b456aa14ec")
 	)
 	(wire
 		(pts
@@ -5652,6 +6664,16 @@
 			(type default)
 		)
 		(uuid "a304d3a5-46e8-4708-9124-66dfdf13e300")
+	)
+	(wire
+		(pts
+			(xy 76.2 121.92) (xy 82.55 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a580eb04-67c6-40f7-9a60-efff41d0f2ff")
 	)
 	(wire
 		(pts
@@ -5975,6 +6997,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 118.11) (xy 86.36 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b60b3fbd-e1fb-4cbf-a9f2-21603bf8333c")
+	)
+	(wire
+		(pts
 			(xy 172.72 66.04) (xy 172.72 68.58)
 		)
 		(stroke
@@ -6072,6 +7104,16 @@
 			(type default)
 		)
 		(uuid "b9695a27-8c5c-4de7-b3a7-1fae01767efc")
+	)
+	(wire
+		(pts
+			(xy 76.2 118.11) (xy 82.55 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb930bf4-76b6-4213-8c8d-06aeb70c59c5")
 	)
 	(wire
 		(pts
@@ -6332,6 +7374,16 @@
 			(type default)
 		)
 		(uuid "ce95bcb2-a503-4936-b358-63c47574c9f8")
+	)
+	(wire
+		(pts
+			(xy 193.04 67.31) (xy 196.85 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cef84b02-f8f2-4f48-bbb1-0c6cfe5a6e8e")
 	)
 	(wire
 		(pts
@@ -6715,6 +7767,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 45.72) (xy 195.58 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7416d5a-a1a8-4844-8406-5af5a0eb6e4c")
+	)
+	(wire
+		(pts
 			(xy 134.62 88.9) (xy 134.62 93.98)
 		)
 		(stroke
@@ -6892,6 +7954,16 @@
 			(type default)
 		)
 		(uuid "ef3270ae-b93b-405f-94b7-b4ab87f5376b")
+	)
+	(wire
+		(pts
+			(xy 104.14 121.92) (xy 104.14 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efe548a0-4af2-49e4-847c-271102b14335")
 	)
 	(wire
 		(pts
@@ -8101,6 +9173,88 @@
 		)
 	)
 	(symbol
+		(lib_id "NixMinis:Mini_C")
+		(at 76.2 118.11 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08b4afd9-f2f3-4035-a278-54de7505984d")
+		(property "Reference" "C18"
+			(at 75.4296 120.0313 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "10uF"
+			(at 76.196 120.0046 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.381 0.381)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 76.2 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 70.612 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Description" "Capacitor, small symbol"
+			(at 68.072 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f2a3c96-54bf-4e63-aa32-939f84b53521")
+		)
+		(pin "2"
+			(uuid "67c72a55-4902-4716-bc4c-a0255abf0b35")
+		)
+		(instances
+			(project "FeriNixie ZM1177 Clock"
+				(path "/c395a452-49ff-4706-a1e4-e3a262b74a6a"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NixMinis:Mini_R")
 		(at 203.2 34.29 270)
 		(unit 1)
@@ -8686,6 +9840,103 @@
 		)
 	)
 	(symbol
+		(lib_id "JLCPCB_Imported:1SMA4740A_C19077479")
+		(at 82.55 123.19 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12ded6c4-a5ec-4d98-8f0b-8690f101d0bb")
+		(property "Reference" "U12"
+			(at 86.36 121.9199 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1SMA4740A_C19077479"
+			(at 86.36 124.4599 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprint:SMA_L4.3-W2.6-LS5.0-RD"
+			(at 72.39 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/543768.html"
+			(at 82.677 120.904 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19077479"
+			(at 82.55 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9a3928bb-6c55-4aee-9fa7-a1deeea9d52a")
+		)
+		(pin "1"
+			(uuid "eb5af0fb-c752-4155-b6ca-c3cdc90dd4af")
+		)
+		(instances
+			(project "FeriNixie ZM1177 Clock"
+				(path "/c395a452-49ff-4706-a1e4-e3a262b74a6a"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NixMinis:Mini_R")
 		(at 219.71 34.29 90)
 		(unit 1)
@@ -8929,6 +10180,84 @@
 			(project "FeriNixie ZM1177 Clock"
 				(path "/c395a452-49ff-4706-a1e4-e3a262b74a6a"
 					(reference "Q12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "168db455-a12e-4497-a565-6785fe9cbf21")
+		(property "Reference" "#PWR019"
+			(at 86.36 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19f6553c-4753-4595-af3c-20a77646c02a")
+		)
+		(instances
+			(project "FeriNixie ZM1177 Clock"
+				(path "/c395a452-49ff-4706-a1e4-e3a262b74a6a"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -10079,6 +11408,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 76.2 118.11 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22865e79-d1e2-494d-ad00-ca25b6190581")
+		(property "Reference" "#PWR015"
+			(at 80.01 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 72.39 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 76.2 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c65faec1-2156-4970-baf8-93ed9e14e2f1")
+		)
+		(instances
+			(project "FeriNixie ZM1177 Clock"
+				(path "/c395a452-49ff-4706-a1e4-e3a262b74a6a"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NixMinis:Mini_C")
 		(at 66.04 90.17 90)
 		(unit 1)
@@ -10984,6 +12392,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 33.02 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a03d834-80f1-4eec-b38b-d9adfbbcd8e8")
+		(property "Reference" "#PWR014"
+			(at 33.02 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.0199 137.16 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3280cb65-a9f2-476a-b22f-6b000bf16278")
+		)
+		(instances
+			(project "FeriNixie ZM1177 Clock"
+				(path "/c395a452-49ff-4706-a1e4-e3a262b74a6a"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NixMinis:Mini_R")
 		(at 68.58 62.23 90)
 		(unit 1)
@@ -11139,6 +12626,150 @@
 			(project "FeriNixie ZM1177 Clock"
 				(path "/c395a452-49ff-4706-a1e4-e3a262b74a6a"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NixSymbols:RP2040-Tiny-Waveshare")
+		(at 43.18 123.19 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f4df969-9757-499b-adfb-b1e16bbbe793")
+		(property "Reference" "U10"
+			(at 27.94 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RP2040-Tiny"
+			(at 43.18 123.19 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NixFootprints:RP2040-Tiny Package"
+			(at 43.18 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "13"
+			(uuid "f8ecb33b-f07c-4630-a322-e30efcde4425")
+		)
+		(pin "4"
+			(uuid "2d821713-f0ca-4aa8-89e9-de07eb643cec")
+		)
+		(pin "6"
+			(uuid "7bc98dca-7f97-4811-9721-983be910b7b6")
+		)
+		(pin "7"
+			(uuid "de7c6a0f-8b71-41eb-8e9a-7e0927431188")
+		)
+		(pin "14"
+			(uuid "fa6b6681-dc93-499d-8144-5bff1e06d0f5")
+		)
+		(pin "3"
+			(uuid "df51a597-bf4c-4e45-95d9-bcbf97bf8b6c")
+		)
+		(pin "5"
+			(uuid "539025cf-93b7-4f36-bc45-4717168d1b53")
+		)
+		(pin "19"
+			(uuid "af565f7d-ac7a-488c-84cb-c07205ef9f86")
+		)
+		(pin "21"
+			(uuid "d2a7ad4d-8b06-4784-aacf-9c3dde090f30")
+		)
+		(pin "9"
+			(uuid "2fb7e596-16c2-47e2-8b1f-c5bfdc2306b1")
+		)
+		(pin "10"
+			(uuid "7bc1df0b-f9d5-4721-8eb6-16def2c36034")
+		)
+		(pin "22"
+			(uuid "9710d39b-8571-494f-aaf8-6712c2a9b17d")
+		)
+		(pin "20"
+			(uuid "9b603e30-c7b6-418d-b319-2fe51378406c")
+		)
+		(pin "8"
+			(uuid "ddac7119-3ba9-4844-90f7-8758532d9f03")
+		)
+		(pin "15"
+			(uuid "52b70b07-3f75-417c-a1b6-5bc934088a2a")
+		)
+		(pin "16"
+			(uuid "4a4f7a81-d505-458a-b0ee-2ed3e0e187d8")
+		)
+		(pin "23"
+			(uuid "41c91447-3585-4bbc-94d0-c12d07d3606e")
+		)
+		(pin "11"
+			(uuid "32ed5f35-35b8-4acb-a564-ab0d7a6402d8")
+		)
+		(pin "18"
+			(uuid "b81cc643-3a58-4f6b-9240-14ee42491140")
+		)
+		(pin "12"
+			(uuid "d67938a0-8a12-4807-957d-589cb07c22da")
+		)
+		(pin "1"
+			(uuid "cbe8f114-b5ec-4d6b-af3c-a173ecec6510")
+		)
+		(pin "17"
+			(uuid "8c39ab12-7f3d-4406-ae10-6fa6bdef478d")
+		)
+		(pin "2"
+			(uuid "08bbafaf-6437-4cf5-aee2-145807a87d84")
+		)
+		(instances
+			(project "FeriNixie ZM1177 Clock"
+				(path "/c395a452-49ff-4706-a1e4-e3a262b74a6a"
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -18087,6 +19718,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 30.48 133.35 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7824ae42-43d9-4f74-9c50-e47bc96f051c")
+		(property "Reference" "#PWR013"
+			(at 30.48 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 30.4799 137.16 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 30.48 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "57e86fc6-2ba7-463a-90b7-ffd3d94b0514")
+		)
+		(instances
+			(project "FeriNixie ZM1177 Clock"
+				(path "/c395a452-49ff-4706-a1e4-e3a262b74a6a"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 223.52 34.29 0)
 		(unit 1)
@@ -18698,6 +20408,93 @@
 			(project "FeriNixie ZM1177 Clock"
 				(path "/c395a452-49ff-4706-a1e4-e3a262b74a6a"
 					(reference "Q68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NixSymbols:NCH8200HV")
+		(at 95.25 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8281a359-940d-4485-8f2b-69536753d0bb")
+		(property "Reference" "U11"
+			(at 95.25 114.808 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "NCH8200HV"
+			(at 95.25 120.65 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NixFootprints:NCH8200HV Through-Hole"
+			(at 95.25 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "268d3e71-8b3d-404f-afaf-57e49291e696")
+		)
+		(pin "2"
+			(uuid "eeb0b3ca-e65f-465f-8846-6b03c3ff281e")
+		)
+		(pin "4"
+			(uuid "f050a066-b385-47b6-b2e8-0dfd19c6b370")
+		)
+		(pin "3"
+			(uuid "6208f3a2-897f-46f9-a0eb-64c00ad60b6c")
+		)
+		(instances
+			(project "FeriNixie ZM1177 Clock"
+				(path "/c395a452-49ff-4706-a1e4-e3a262b74a6a"
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -23306,6 +25103,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 104.14 118.11 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a94b1933-b5af-4026-83c7-3d7a71f47b25")
+		(property "Reference" "#PWR018"
+			(at 100.33 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+170V"
+			(at 107.95 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 104.14 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a9d3c6f-5132-4abb-b7e2-83fd67b32561")
+		)
+		(instances
+			(project "FeriNixie ZM1177 Clock"
+				(path "/c395a452-49ff-4706-a1e4-e3a262b74a6a"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NixMinis:Mini_BJT_NPN")
 		(at 25.4 62.23 0)
 		(unit 1)
@@ -25458,6 +27334,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 104.14 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be8d72e6-3c3b-46bc-a190-263e5082049f")
+		(property "Reference" "#PWR017"
+			(at 104.14 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c0660d7-5e93-4aa0-bc46-7637605be502")
+		)
+		(instances
+			(project "FeriNixie ZM1177 Clock"
+				(path "/c395a452-49ff-4706-a1e4-e3a262b74a6a"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NixMinis:Mini_R")
 		(at 48.26 62.23 90)
 		(unit 1)
@@ -27521,6 +29475,88 @@
 			(project "FeriNixie ZM1177 Clock"
 				(path "/c395a452-49ff-4706-a1e4-e3a262b74a6a"
 					(reference "Q28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NixMinis:Mini_C")
+		(at 104.14 118.11 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e115d40b-d34e-46e7-b5f7-f77620825f54")
+		(property "Reference" "C31"
+			(at 103.3696 120.0313 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "10uF"
+			(at 104.136 120.0046 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.381 0.381)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 104.14 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 98.552 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Description" "Capacitor, small symbol"
+			(at 96.012 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "edeac5bf-4970-4239-9027-ce7d9117dd87")
+		)
+		(pin "2"
+			(uuid "43254e87-6be4-4391-80ff-6e7a16ab628d")
+		)
+		(instances
+			(project "FeriNixie ZM1177 Clock"
+				(path "/c395a452-49ff-4706-a1e4-e3a262b74a6a"
+					(reference "C31")
 					(unit 1)
 				)
 			)
