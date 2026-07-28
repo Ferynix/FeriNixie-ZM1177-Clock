@@ -4822,12 +4822,6 @@
 		(uuid "107c3352-e004-4136-8607-6531866d6b64")
 	)
 	(junction
-		(at 77.47 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10d5a018-e818-4f6c-b816-b03e066decc5")
-	)
-	(junction
 		(at 45.72 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5188,6 +5182,12 @@
 		(uuid "5a81da6f-5f9f-4833-b624-e2b8e1a1d5ef")
 	)
 	(junction
+		(at 83.82 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d26742c-7bc3-4d57-8f89-1513e3a09bd5")
+	)
+	(junction
 		(at 63.5 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5302,7 +5302,7 @@
 		(uuid "77b62b8a-a923-4b59-9865-6df6b63a1266")
 	)
 	(junction
-		(at 82.55 194.31)
+		(at 83.82 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bab3e53-1124-4b71-be6e-4e641b62377a")
@@ -5584,6 +5584,12 @@
 		(uuid "b93d9fd7-32f9-4d17-9f6d-8da518caed55")
 	)
 	(junction
+		(at 78.74 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb59de80-14cc-423d-94ec-1606eeea2bc6")
+	)
+	(junction
 		(at 119.38 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5782,7 +5788,7 @@
 		(uuid "d8a72f7c-e88c-4fc4-94e1-f0a019349549")
 	)
 	(junction
-		(at 80.01 194.31)
+		(at 81.28 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbfabb09-a3ff-4d5e-a13b-da28a1091732")
@@ -5818,7 +5824,7 @@
 		(uuid "de9c4879-9435-4ed6-96b1-783e00532b7b")
 	)
 	(junction
-		(at 85.09 194.31)
+		(at 86.36 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0c0adb4-5aa2-4d58-8267-d52b4e5a4ba6")
@@ -5954,12 +5960,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc6813e9-76ae-4c69-a148-770fe5cd3d0d")
-	)
-	(junction
-		(at 82.55 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fdfba806-fe74-4935-85e8-8af326425442")
 	)
 	(no_connect
 		(at 205.74 88.9)
@@ -6193,7 +6193,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 194.31) (xy 88.9 194.31)
+			(xy 86.36 194.31) (xy 90.17 194.31)
 		)
 		(stroke
 			(width 0)
@@ -7153,7 +7153,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 161.29) (xy 81.28 161.29)
+			(xy 80.01 161.29) (xy 81.28 161.29)
 		)
 		(stroke
 			(width 0)
@@ -7173,7 +7173,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 158.75) (xy 77.47 184.15)
+			(xy 78.74 158.75) (xy 78.74 184.15)
 		)
 		(stroke
 			(width 0)
@@ -7213,7 +7213,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 194.31) (xy 80.01 194.31)
+			(xy 78.74 194.31) (xy 81.28 194.31)
 		)
 		(stroke
 			(width 0)
@@ -7233,7 +7233,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 193.04) (xy 88.9 194.31)
+			(xy 91.44 193.04) (xy 90.17 194.31)
 		)
 		(stroke
 			(width 0)
@@ -7463,7 +7463,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 184.15) (xy 80.01 184.15)
+			(xy 78.74 184.15) (xy 81.28 184.15)
 		)
 		(stroke
 			(width 0)
@@ -7880,6 +7880,16 @@
 			(type default)
 		)
 		(uuid "556aca60-fee6-43f1-83f4-2922167762f7")
+	)
+	(wire
+		(pts
+			(xy 81.28 173.99) (xy 91.44 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "558f8cda-9a34-443e-8472-8a0e37a191ba")
 	)
 	(wire
 		(pts
@@ -8333,7 +8343,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 161.29) (xy 78.74 180.34)
+			(xy 80.01 161.29) (xy 80.01 180.34)
 		)
 		(stroke
 			(width 0)
@@ -8953,7 +8963,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 158.75) (xy 81.28 158.75)
+			(xy 78.74 158.75) (xy 81.28 158.75)
 		)
 		(stroke
 			(width 0)
@@ -9140,16 +9150,6 @@
 			(type default)
 		)
 		(uuid "86fe92c6-6c3b-454f-8a97-e0e80c43a126")
-	)
-	(wire
-		(pts
-			(xy 78.74 180.34) (xy 82.55 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8742d90d-2cdd-4858-b986-92b756677252")
 	)
 	(wire
 		(pts
@@ -9583,7 +9583,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 194.31) (xy 85.09 194.31)
+			(xy 83.82 194.31) (xy 86.36 194.31)
 		)
 		(stroke
 			(width 0)
@@ -10123,16 +10123,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 182.88) (xy 90.17 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b285954b-499e-464d-bfb8-e710e1a870c8")
-	)
-	(wire
-		(pts
 			(xy 38.1 50.8) (xy 38.1 59.69)
 		)
 		(stroke
@@ -10613,6 +10603,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 184.15) (xy 91.44 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c81999c8-acfb-42f3-bc40-52a845fb68b6")
+	)
+	(wire
+		(pts
 			(xy 20.32 78.74) (xy 43.18 78.74)
 		)
 		(stroke
@@ -10820,16 +10820,6 @@
 			(type default)
 		)
 		(uuid "d36e7283-4431-4ff3-9eea-aaf1e4fb3e2f")
-	)
-	(wire
-		(pts
-			(xy 81.28 173.99) (xy 90.17 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3d9260f-2e54-4f86-9e09-ecc41ff3fffa")
 	)
 	(wire
 		(pts
@@ -11083,7 +11073,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 194.31) (xy 82.55 194.31)
+			(xy 81.28 194.31) (xy 83.82 194.31)
 		)
 		(stroke
 			(width 0)
@@ -11303,7 +11293,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 184.15) (xy 85.09 184.15)
+			(xy 83.82 184.15) (xy 86.36 184.15)
 		)
 		(stroke
 			(width 0)
@@ -11823,6 +11813,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 180.34) (xy 83.82 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff119241-f539-4095-9908-30591e376d5e")
+	)
+	(wire
+		(pts
 			(xy 60.96 63.5) (xy 60.96 62.23)
 		)
 		(stroke
@@ -12005,7 +12005,7 @@
 	)
 	(symbol
 		(lib_id "JLCPCB_Imported:KT-0603R")
-		(at 82.55 189.23 90)
+		(at 83.82 189.23 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12016,7 +12016,7 @@
 		(fields_autoplaced yes)
 		(uuid "0131029f-3313-408f-a3a7-4a271c432c31")
 		(property "Reference" "U17"
-			(at 86.36 189.2299 90)
+			(at 87.63 189.2299 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12028,7 +12028,7 @@
 			)
 		)
 		(property "Value" "KT-0603R"
-			(at 86.36 191.7699 90)
+			(at 87.63 191.7699 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12040,7 +12040,7 @@
 			)
 		)
 		(property "Footprint" "JLCPCB_Imported:LED-SMD_L1.6-W0.8-R-RD"
-			(at 92.71 189.23 0)
+			(at 93.98 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12052,7 +12052,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/347796.html"
-			(at 82.423 191.516 0)
+			(at 83.693 191.516 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12064,7 +12064,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 189.23 0)
+			(at 83.82 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12075,7 +12075,7 @@
 			)
 		)
 		(property "LCSC" "C2286"
-			(at 82.55 189.23 0)
+			(at 83.82 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13340,7 +13340,7 @@
 	)
 	(symbol
 		(lib_id "JLCPCB_Imported:KT-0603R")
-		(at 80.01 189.23 270)
+		(at 81.28 189.23 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13351,7 +13351,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ddeb376-50a2-426f-b784-7c69db5efcb8")
 		(property "Reference" "U16"
-			(at 76.2 189.2301 90)
+			(at 77.47 189.2301 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13363,7 +13363,7 @@
 			)
 		)
 		(property "Value" "KT-0603R"
-			(at 76.2 186.6901 90)
+			(at 77.47 186.6901 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13375,7 +13375,7 @@
 			)
 		)
 		(property "Footprint" "JLCPCB_Imported:LED-SMD_L1.6-W0.8-R-RD"
-			(at 69.85 189.23 0)
+			(at 71.12 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13387,7 +13387,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/347796.html"
-			(at 80.137 186.944 0)
+			(at 81.407 186.944 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13399,7 +13399,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 189.23 0)
+			(at 81.28 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13410,7 +13410,7 @@
 			)
 		)
 		(property "LCSC" "C2286"
-			(at 80.01 189.23 0)
+			(at 81.28 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26589,7 +26589,7 @@
 	)
 	(symbol
 		(lib_id "JLCPCB_Imported:KT-0603R")
-		(at 85.09 189.23 270)
+		(at 86.36 189.23 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26600,7 +26600,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d8f1f48-9826-4491-a884-c86a473dad36")
 		(property "Reference" "U18"
-			(at 81.28 189.2301 90)
+			(at 82.55 189.2301 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26612,7 +26612,7 @@
 			)
 		)
 		(property "Value" "KT-0603R"
-			(at 81.28 186.6901 90)
+			(at 82.55 186.6901 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26624,7 +26624,7 @@
 			)
 		)
 		(property "Footprint" "JLCPCB_Imported:LED-SMD_L1.6-W0.8-R-RD"
-			(at 74.93 189.23 0)
+			(at 76.2 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26636,7 +26636,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/347796.html"
-			(at 85.217 186.944 0)
+			(at 86.487 186.944 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26648,7 +26648,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 189.23 0)
+			(at 86.36 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26659,7 +26659,7 @@
 			)
 		)
 		(property "LCSC" "C2286"
-			(at 85.09 189.23 0)
+			(at 86.36 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38645,7 +38645,7 @@
 	)
 	(symbol
 		(lib_id "JLCPCB_Imported:KT-0603R")
-		(at 77.47 189.23 90)
+		(at 78.74 189.23 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38656,7 +38656,7 @@
 		(fields_autoplaced yes)
 		(uuid "f033d08a-50c7-4ae0-919f-cdbce2d0fb46")
 		(property "Reference" "U15"
-			(at 81.28 189.2299 90)
+			(at 82.55 189.2299 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38668,7 +38668,7 @@
 			)
 		)
 		(property "Value" "KT-0603R"
-			(at 81.28 191.7699 90)
+			(at 82.55 191.7699 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38680,7 +38680,7 @@
 			)
 		)
 		(property "Footprint" "JLCPCB_Imported:LED-SMD_L1.6-W0.8-R-RD"
-			(at 87.63 189.23 0)
+			(at 88.9 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38692,7 +38692,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/347796.html"
-			(at 77.343 191.516 0)
+			(at 78.613 191.516 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38704,7 +38704,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 189.23 0)
+			(at 78.74 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38715,7 +38715,7 @@
 			)
 		)
 		(property "LCSC" "C2286"
-			(at 77.47 189.23 0)
+			(at 78.74 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
