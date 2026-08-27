@@ -5190,6 +5190,12 @@
 		(uuid "3d705ab0-bdee-4eed-9b6c-24a3df9e8de3")
 	)
 	(junction
+		(at 38.1 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e0e74c2-6fea-4cba-8c60-85f6aa804cbc")
+	)
+	(junction
 		(at 78.74 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5422,12 +5428,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70071d48-ca33-43f8-a2d5-d5eab9fcc3ec")
-	)
-	(junction
-		(at 38.1 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71aafd2a-84a5-4f86-9ee9-eeb97ff89614")
 	)
 	(junction
 		(at 116.84 97.79)
@@ -7600,6 +7600,16 @@
 			(type default)
 		)
 		(uuid "38600e44-4f7d-45d8-8625-7736eefe4a16")
+	)
+	(wire
+		(pts
+			(xy 38.1 133.35) (xy 38.1 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "393271cb-81e1-4546-9243-d06ba09baaf1")
 	)
 	(wire
 		(pts
@@ -13546,89 +13556,6 @@
 	)
 	(symbol
 		(lib_id "NixMinis:Mini_R")
-		(at 38.1 137.16 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "096fd7c6-3bf5-43f7-8f90-424ae717afb7")
-		(property "Reference" "R258"
-			(at 37.3296 135.2387 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 38.096 135.2654 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.381 0.381)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 38.1 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 32.512 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 29.972 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3a83f9ec-395a-4f2f-b8d5-4be1a02956cf")
-		)
-		(pin "1"
-			(uuid "e0196ca7-92fb-451b-b26b-d19536bb2559")
-		)
-		(instances
-			(project "FeriNixie ZM1177 Clock"
-				(path "/c395a452-49ff-4706-a1e4-e3a262b74a6a"
-					(reference "R258")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NixMinis:Mini_R")
 		(at 203.2 34.29 270)
 		(unit 1)
 		(body_style 1)
@@ -17739,7 +17666,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 38.1 148.59 180)
+		(at 34.29 139.7 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17750,7 +17677,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ef07d6b-408e-406a-8e2a-5fed7d86b6e6")
 		(property "Reference" "#PWR058"
-			(at 38.1 144.78 0)
+			(at 38.1 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17761,7 +17688,7 @@
 			)
 		)
 		(property "Value" "USB5V"
-			(at 38.1 152.4 90)
+			(at 30.48 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17772,7 +17699,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 148.59 0)
+			(at 34.29 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17783,7 +17710,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 148.59 0)
+			(at 34.29 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17794,7 +17721,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 38.1 148.59 0)
+			(at 34.29 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20835,6 +20762,88 @@
 		)
 	)
 	(symbol
+		(lib_id "NixMinis:Mini_R")
+		(at 41.91 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "446a1b15-7986-4da7-9aff-62e65e4ccefb")
+		(property "Reference" "R151"
+			(at 39.9887 138.9296 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "100K"
+			(at 40.0154 139.696 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.381 0.381)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 41.91 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 134.112 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 41.91 131.572 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a1c12522-0d02-4262-968a-0ca52a707c4e")
+		)
+		(pin "1"
+			(uuid "26b16790-8e1c-41b3-abe5-df22d3861d6e")
+		)
+		(instances
+			(project "FeriNixie ZM1177 Clock"
+				(path "/c395a452-49ff-4706-a1e4-e3a262b74a6a"
+					(reference "R151")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NixMinis:Mini_BJT_NPN")
 		(at 124.46 62.23 0)
 		(unit 1)
@@ -22894,89 +22903,6 @@
 			(project "FeriNixie ZM1177 Clock"
 				(path "/c395a452-49ff-4706-a1e4-e3a262b74a6a"
 					(reference "R87")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NixMinis:Mini_R")
-		(at 38.1 140.97 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5383ccf3-fc1e-4bcc-b4c4-2219f4b63f90")
-		(property "Reference" "R259"
-			(at 37.3296 139.0487 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 38.096 139.0754 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.381 0.381)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 38.1 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 32.512 142.24 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 29.972 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "46df21c0-0c66-4291-b5b0-2832b2c97326")
-		)
-		(pin "1"
-			(uuid "26edc0b8-8f96-4682-8244-5ebf8948a875")
-		)
-		(instances
-			(project "FeriNixie ZM1177 Clock"
-				(path "/c395a452-49ff-4706-a1e4-e3a262b74a6a"
-					(reference "R259")
 					(unit 1)
 				)
 			)
@@ -26905,89 +26831,6 @@
 	)
 	(symbol
 		(lib_id "NixMinis:Mini_R")
-		(at 38.1 148.59 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6fbac65e-0229-4fb1-a121-9e1324636526")
-		(property "Reference" "R261"
-			(at 37.3296 146.6687 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 38.096 146.6954 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.381 0.381)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 38.1 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 32.512 149.86 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 29.972 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6e93b70b-cab5-4075-8c87-efa22e496400")
-		)
-		(pin "1"
-			(uuid "0742bdbb-475c-44ca-8209-a6aa92fe601f")
-		)
-		(instances
-			(project "FeriNixie ZM1177 Clock"
-				(path "/c395a452-49ff-4706-a1e4-e3a262b74a6a"
-					(reference "R261")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NixMinis:Mini_R")
 		(at 120.65 152.4 90)
 		(unit 1)
 		(body_style 1)
@@ -29452,7 +29295,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 133.35 0)
+		(at 41.91 139.7 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29463,7 +29306,7 @@
 		(fields_autoplaced yes)
 		(uuid "824c789c-e03c-4103-836d-86f76273c78a")
 		(property "Reference" "#PWR057"
-			(at 41.91 139.7 0)
+			(at 48.26 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29474,7 +29317,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 137.16 90)
+			(at 45.72 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29485,7 +29328,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 133.35 0)
+			(at 41.91 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29496,7 +29339,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 133.35 0)
+			(at 41.91 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29507,7 +29350,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 133.35 0)
+			(at 41.91 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32766,89 +32609,6 @@
 		)
 	)
 	(symbol
-		(lib_id "NixMinis:Mini_R")
-		(at 38.1 133.35 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b63aa0f-e7cb-48ac-ae02-44e6cabe8a19")
-		(property "Reference" "R257"
-			(at 40.0213 132.5796 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 39.9946 133.346 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.381 0.381)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 38.1 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 127.762 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 38.1 125.222 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ade3ffd8-d578-40a6-90dd-42fe4aa16b50")
-		)
-		(pin "1"
-			(uuid "50d81aac-e67e-4ba0-82a1-9f5fcf84d023")
-		)
-		(instances
-			(project "FeriNixie ZM1177 Clock"
-				(path "/c395a452-49ff-4706-a1e4-e3a262b74a6a"
-					(reference "R257")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "NixMinis:Mini_C")
 		(at 86.36 90.17 90)
 		(unit 1)
@@ -33917,89 +33677,6 @@
 			(project "FeriNixie ZM1177 Clock"
 				(path "/c395a452-49ff-4706-a1e4-e3a262b74a6a"
 					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NixMinis:Mini_R")
-		(at 38.1 144.78 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a2a33e1d-370a-4548-8b62-af9c2bda2610")
-		(property "Reference" "R260"
-			(at 37.3296 142.8587 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 38.096 142.8854 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.381 0.381)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 38.1 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 32.512 146.05 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 29.972 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ac0827f0-ec37-42b5-8e0b-d623f7fe7d01")
-		)
-		(pin "1"
-			(uuid "b54251e4-5ce7-4109-97f0-c7707660cf77")
-		)
-		(instances
-			(project "FeriNixie ZM1177 Clock"
-				(path "/c395a452-49ff-4706-a1e4-e3a262b74a6a"
-					(reference "R260")
 					(unit 1)
 				)
 			)
@@ -37602,6 +37279,88 @@
 			(project "FeriNixie ZM1177 Clock"
 				(path "/c395a452-49ff-4706-a1e4-e3a262b74a6a"
 					(reference "R78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NixMinis:Mini_R")
+		(at 38.1 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd2c8d0c-88a1-4a97-95e6-95b5d35eb5af")
+		(property "Reference" "R150"
+			(at 36.1787 138.9296 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "100K"
+			(at 36.2054 139.696 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.381 0.381)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 38.1 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 134.112 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 38.1 131.572 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0e902ed1-725b-41b2-a473-3d4b8ccbb132")
+		)
+		(pin "1"
+			(uuid "18282aef-abd0-483c-9795-c9291981920d")
+		)
+		(instances
+			(project "FeriNixie ZM1177 Clock"
+				(path "/c395a452-49ff-4706-a1e4-e3a262b74a6a"
+					(reference "R150")
 					(unit 1)
 				)
 			)
